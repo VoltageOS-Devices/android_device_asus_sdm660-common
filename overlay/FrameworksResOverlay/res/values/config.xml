@@ -306,4 +306,8 @@
 
     <!-- Flag indicating whether we should enable the adaptive sleep.-->
     <bool name="config_adaptive_sleep_available">true</bool>
+
+    <!-- Whether or not to enable the lock screen entry point for the QR code scanner. -->
+    <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
+
 </resources>
