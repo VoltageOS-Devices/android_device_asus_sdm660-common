@@ -284,16 +284,9 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Overlays
-PRODUCT_PACKAGES += \
-   CarrierConfigOverlay \
-   CellBroadCastReceiverOverlay \
-   DialerOverlay \
-   FrameworksResOverlay \
-   SettingsOverlay \
-   SettingsProviderOverlay \
-   SystemUIOverlay \
-   TelephonyOverlay \
-   TouchGesturesOverlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
